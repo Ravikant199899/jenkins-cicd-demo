@@ -29,8 +29,8 @@ Follow these steps to set up the CI/CD pipeline:
 3. **Install Jenkins on the EC2 instance.**  
    - Added Jenkins repository key.  
    - Installed and started Jenkins service.  
-   ![Jenkins Installation Step 1](screenshots/Jenkins-Installation-stp_l.png)  
-   ![Jenkins Installation Step 2](screenshots/Jenkins-installation-stp_2.png)  
+   ![Jenkins Installation Step 1](screenshots/Jenkins-Installation-stp_1.png)  
+   ![Jenkins Installation Step 2](screenshots/Jenkins-Installation-stp_2.png)  
    ![Jenkins Installation Step 3](screenshots/Jenkins-Installation-stp_3.png)  
    ![Jenkins Installation Step 4](screenshots/Jenkins-Installation-stp_4.png)  
    ![Jenkins Installation Step 5](screenshots/Jenkins-Installation-stp_5.png)  
@@ -41,8 +41,8 @@ Follow these steps to set up the CI/CD pipeline:
    ![GitHub Repo Page](screenshots/Repo-Page.png)
 
 6. **Create a new Pipeline job in Jenkins, and configure it to use your GitHub repo.**  
-   ![Create Jenkins New Item](screenshots/Create_Jenkin-Newltem.png)  
-   ![Pipeline Config Step 1](screenshots/Pipeline-Config-Stp_I.png)  
+   ![Create Jenkins New Item](screenshots/Create_Jenkin-NewItem.png)  
+   ![Pipeline Config Step 1](screenshots/Pipeline-Config-Stp_1.png)  
    ![Pipeline Config Step 2](screenshots/Pipeline-Config-Stp_2.png)
 
 7. **Configure GitHub webhook for automatic build triggers.**
@@ -83,9 +83,9 @@ Each stage is automated by the Jenkins pipeline defined in the `Jenkinsfile`.
 |-----------------------|---------------------------------------------|
 | EC2 Instance Running  | ![Instance](screenshots/instance.png)      |
 | SSH Access            | ![SSH](screenshots/SSH-access.png)         |
-| Jenkins Installation  | ![Step 1](screenshots/Jenkins-Installation-stp_l.png) <br> ![Step 2](screenshots/Jenkins-installation-stp_2.png) <br> ![Step 3](screenshots/Jenkins-Installation-stp_3.png) <br> ![Step 4](screenshots/Jenkins-Installation-stp_4.png) <br> ![Step 5](screenshots/Jenkins-Installation-stp_5.png) |
+| Jenkins Installation  | ![Step 1](screenshots/Jenkins-Installation-stp_1.png) <br> ![Step 2](screenshots/Jenkins-Installation-stp_2.png) <br> ![Step 3](screenshots/Jenkins-Installation-stp_3.png) <br> ![Step 4](screenshots/Jenkins-Installation-stp_4.png) <br> ![Step 5](screenshots/Jenkins-Installation-stp_5.png) |
 | GitHub Repo           | ![Repo Page](screenshots/Repo-Page.png)    |
-| Jenkins Job Creation  | ![New Item](screenshots/Create_Jenkin-Newltem.png) <br> ![Config Step 1](screenshots/Pipeline-Config-Stp_I.png) <br> ![Config Step 2](screenshots/Pipeline-Config-Stp_2.png) |
+| Jenkins Job Creation  | ![New Item](screenshots/Create_Jenkin-NewItem.png) <br> ![Config Step 1](screenshots/Pipeline-Config-Stp_1.png) <br> ![Config Step 2](screenshots/Pipeline-Config-Stp_2.png) |
 | Jenkins Dashboard     | ![Dashboard](screenshots/Jenkins-Dashboard.png) <br> ![Job](screenshots/Jenkins-Job.png)     |
 | Successful Build      | ![Build Success](screenshots/Build-Sucessful.png)        |
 
@@ -93,4 +93,3 @@ Each stage is automated by the Jenkins pipeline defined in the `Jenkinsfile`.
 
 Thank you for exploring this Jenkins CI/CD pipeline demo!  
 Feel free to reach out if you want to expand or customize this setup.
-
